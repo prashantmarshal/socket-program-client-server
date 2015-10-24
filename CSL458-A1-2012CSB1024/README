@@ -1,0 +1,19 @@
+The service provided is 'image to pdf conversion'.
+
+The folder CSL458-A1-2012CSB1024 contains two files: 1. Server.java and 2. Client.java
+which serves as a server and a client respectively. The server file Server.java when run
+creates a mutithreaded server using ServerSocket class of java. Multiple clients can connect
+to it at the same time. I have used synchronous technique in the server code. 
+When the Client.java file is run, users have to input the ip address of the server they are
+trying to connect and after that the full name of the image file they want to convert into
+pdf format.
+Ex:- (When the Client code is run)
+Enter the ip address of the server:
+10.1.9.239
+Enter the image file name:
+tosend.jpg
+
+Make sure that the image file is kept in the same directory in which the Client.java code has 
+been put. The client will get back the pdf format of the iamge in the same directory named as
+"received.pdf".
+
